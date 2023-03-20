@@ -1388,7 +1388,7 @@
                     <td>${item.bookAuthor}</td>
                     <td class="borrow-time">${item.borrowTime}</td>
                     <td class="return-time">${item.returnTime}</td>
-                    <td class="state">${item.state}</td>
+                    <td class="state borrowing">${item.state}</td>
                     <td><button class="handle">${item.handle}</button></td>
                 </tr>
             `;
