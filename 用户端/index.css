@@ -1,365 +1,746 @@
 *{
     margin: 0;
-}
-body{
-    overflow-x: hidden;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#title{
-    height: 60px;
-    width: 1920px;
-    background-color: rgba(38, 130, 182, 0.9);
-    font-size: 40px;
-    line-height: 80px;
-    color: #FFFFFF;
+body{
+    /* overflow: hidden; */
+    background: url("https://xirealm.oss-cn-beijing.aliyuncs.com/xi/v2-4512c514732c060dd6b4f4269de50d01_r.jpg") no-repeat;
+    background-size: 100%;
+}
+
+header{
     display: flex;
     justify-content: space-between;
+    height: 60px;
+    margin-left: 220px;
+    background: #2c84b4;
+    color: white;
+    font-family: "Source Han Sans Old Style";
+    transition: margin, .2s;
 }
-.title div:nth-child(2){
-    display: flex;
-}
-.title img{
-    margin-right: 130px;
-    width: 100px;
-    height: 100px;
-}
-.title_text{
+
+header h1{
     font-size: 30px;
-    width: 800px;
-    height: 40px;
-    line-height: 40px;
-    margin-right:500px;
-    margin-top: 20px;
-    line-height: 45px;
+    font-weight: 700;
+    line-height: 60px;
 }
-.title_text span{
-    transform: translateX(400px);
+
+.title_text{
+    margin-top: 10px;
+    background: #FFFFFF;
+    color: black;
+    font-size: 26px;
+    height: 40px;
+    width: 600px;
+    line-height: 40px;
+    margin-left: 50px;
+    line-height: 40px;
+    border-radius: 11px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.title_text{
     animation-name:gun;
     animation-duration:5s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
 }
-@keyframes gun{
+
+/* @keyframes gun{
     0%{
 
     }
     100%{
-        transform: translateX(-700px);
+        transform: translateX(-300px);
     }
-}
+} */
+
 .symbol{
-    position: absolute;
-    transform: translateX(1150px);
+    margin-right: 50px;
+    z-index: 10;
 }
-.symbol div{
+
+.my-account{
     display: flex;
+    height: 60px;
+    line-height: 60px;
 }
-.symbol div a{
-    font-size:30px;
+
+.icon-denglu {
+    width: 50px;
+}
+
+.symbol .my-account .my{
+    display: block;
+    font-size:26px;
+    font-weight: 300;
+    letter-spacing: 1px;
     color: white;
-     text-decoration: none;
-}
-#deng-lu{
-    display: block;
-    background-color: rgba(38, 130, 182, 0.9);
-    margin:0 0 -5px 0;
-    line-height: 35px;
-}
-#deng-lu a{
-    display: block;
+    margin-left: 10px;
 }
 
-#content{
+.login{
+    display: none;
+    background-color: #2c84b4;
+    height: 90px;
+}
+
+.login a{
+    display: block;
+    text-align: center;
+    height: 45px;
+}
+
+.icon-tuichu,
+.icon-24gl-repeat2 {
+    font-size: 20px;
+    height: 30px;
+    line-height: 45px;
+}
+
+.login a .word{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+main{
     width: 100%;
-    display: flex;
-}
-
-.list{
-    overflow: hidden;
-    width: 180px;
-    text-align: center;
-    line-height: 120px;
-    background-color: rgba(38, 130, 182, 0.9);
-    transition: all 0.5s ;
-}
-
-.shell{
-    display: block;
-    height:350px;
-    margin-top: 270px;
-}
-.shell a{
-    display: block;
-    font-size: 30px;
-    height: 100px;
-    background-color: rgba(38, 130, 182, 0.9);
-    text-decoration: none;
-    overflow: hidden;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.boxShadow{
-    box-shadow: 0  0 10px 0 rgba(25, 26, 26, 0.3) inset;
-}
-.text1{
-    width: 200px;
-    height: 100px;
-    transition:  all 0.5s;
-    /* margin-left: 200px; */
-}
-.text2{
-    width: 200px;
-    height: 100px;
-    transition:  all 0.5s;
-    /* margin-left: 200px; */
-
-}
-.text3{
-        width: 200px;
-        height: 100px;
-        transition:  all 0.5s;
-        /* margin-left: 200px; */
-
-}
-.shell_box{
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    padding-left: 220px;
     margin: auto;
+    transition: padding-left, .3s;
 }
-.shell_box div:nth-child(2){
-    height: 100px;
-    width: 100px;
-    /* background-color: pink; */
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    z-index: 0;
+    margin-top: -60px;
+    background-color: rgba(38, 130, 182, 0.9);
+    height: 100%;
+    width: 220px;
+    text-align: left;
+    transition: width, .2s;
+    z-index: 998;
+}
+
+.aside-close {
+    margin-left: -160px;
+}
+
+.menu-close {
+    display: none;
+}
+
+.btn-menu-open {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-90px);
+    font-size: 15px;
+}
+
+.logo-name {
+    height: 60px;
+    line-height: 65px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    transition: color .3s;
+    color: white;
+}
+
+.aside-logo-box {
+    margin-top: 20px;
+    height: 160px;
+    width: 220px;
+}
+
+.aside-logo {
+    height: 220px;
+    width: 220px;
+    transition: height .3s, width .3s;
+}
+
+.aside-logo-box-little {
+    position: relative;
+    margin-top: 20px;
+    height: 160px;
+    width: 220px;
+}
+
+.aside-logo-little {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    transition: height .3s, width .3s;
+}
+
+aside .menu{
+    margin-top: 60px;
+}
+
+aside a {
+    display: inline-block;
+    width: 220px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-family: "Source Sans Pro";
+    letter-spacing: 2px;
+}
+
+aside .menu-content {
+    display: inline-block;
+    width: 160px;
+    padding-left: 15px;
+    letter-spacing: 3px;
+}
+
+aside .iconfont {
+    display: inline-block;
+    width: 30px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+aside .selected {
+    box-shadow: 0 0 10px 0 rgba(25, 26, 26, 0.3) inset;
 }
 
 .show{
-    /* width: 1820px; */
-    width: 1200px;
-    flex: 1;
+    width: 100%;
     height: 100%;
     display: none;
 }
-.show01_box{
-    display: flex;
-    justify-content: space-around;
-}
-#show01{
-    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/2b892782dccb5c6ea968bc6dfd1beb00.png);
-    background-repeat: no-repeat;
-    background-size: 2040px 100%;
-}
 
-/* .show01_box div{
-    margin-top: 547px;
-    height: 335px;
-    width: 400px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 30px;
-} */
-.show01_text{
-    height: 100px;
-    width: 500px;
-    background-color: thistle;
-}
-
-.show_content{
-    height: 800px;
-    width: 1500px;
-    background-color: aliceblue;
-    display: flex;
-}
-.show_content_box{
-    height: 800px;
-    width: 700px;
-    background-color: pink;
-}
-.allusion{
-    height: 800px;
-    width: 700px;
-    background-color: aqua;
-}
-.show01_box p{
+#show1{
     display: block;
-    font-size: 40px;
-    position:absolute;
-    margin-top:15px;
-    margin-left: 100px;
-    text-align: center;
-    margin-left: 120px;
-    color:rgb(34, 111, 139);
 }
-.show01_box img{
-    width: 300px;
+
+.show01_text1 {
+    margin: 50px auto 30px;
+    height: 80px;
+    width: 800px;
+    font-size: 70px;
+    color: #FFFFFF;
+    letter-spacing: 16px;
+}
+
+.show01_text2 {
+    width: 800px;
+    height: 40px;
+    font-size: 34px;
+    margin: 30px auto;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.show01_content {
+    margin: 0 auto;
+    height: 600px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.show_content_box {
+    height: 600px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.recommend {
+    height: 280px;
+    width: 600px;
+}
+
+.recommend_text {
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.recommend_content {
+    margin: 0 auto;
+    width: 600px;
+    height: 240px;
+    display: flex;
+}
+
+.book1 {
+    width: 119px;
+    height: 155px;
+    transform: translate(15px, 50px);
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/12e93e43769bc55a16f41ac1ed6f57c3.png);
+    background-size: 100% 100%;
+}
+
+.book2 {
+    width: 147px;
+    height: 191px;
+    transform: translate(-0px, 30px);
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/a724c26b5c929902c28977f43265dd5a.png);
+    background-size: 100% 100%;
+}
+
+.book3 {
+    width: 174px;
+    height: 227px;
+    transform: translate(-230px, 10px);
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/9e7a9d63e65d0dba21fb674b460286db.png);
+    background-size: 100% 100%;
+}
+
+.book4 {
+    width: 147px;
+    height: 191px;
+    transform: translate(30px, 30px);
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/f1409a2d99b8b139db95d0f0af40c555.png);
+    background-size: 100% 100%;
+}
+
+.book5 {
+    width: 119px;
+    height: 155px;
+    transform: translate(250px, 50px);
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/56d5423eab7395ac5645099694709a64.png);
+    background-size: 100% 100%;
+}
+
+
+.leaderboard {
     height: 300px;
-    margin-left: 50px;
-    margin-top: 50px;
-    opacity: 0.9;
+    width: 600px;
+    margin-top: 10px;
 }
-#show02{
-    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/89e98a8f841bd450af3d421546742109.png);
+
+.leaderboard_text {
+    height: 40px;
+    width: 150px;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.leaderboard_content {
+    display: flex;
+    justify-content: space-between;
+    height: 260px;
+    width: 560px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: rgba(255, 255, 255, 0.4) 2px solid;
+    background: linear-gradient(111.53deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.4) 100%);
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.leaderboard_content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 40%;
+    margin-left: 5%;
+    color: black;
+    font-weight: normal;
+}
+
+.allusion {
+    margin-top: 10px;
+    height: 550px;
+    width: 650px;
+}
+
+.allusion_text {
+    height: 40px;
+    width: 150px;
+    font-size: 30px;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+
+.allusion_content {
+    height: 540px;
+    width: 480px;
+    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/22de4ed5193eb9c4798ebc9914ea7ecb.png);
+    background-size: 480px 290px;
     background-repeat: no-repeat;
-    background-size: 2040px 100%;
+    margin: 10px 100px;
+    border-radius: 10px;
+    border: rgba(255, 255, 255, 0.4) 2px solid;
+    background-color: rgba(230, 227, 227, 0.7);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
 }
+
+.date {
+    color: #FFFFFF;
+    display: flex;
+    height: 100px;
+    margin-top: 220px;
+    justify-content: space-between;
+}
+
+.date div:nth-child(2) {
+    margin-top: 50px;
+}
+
+.saying-box{
+    margin-top: 30px;
+}
+
+.saying {
+    width: 450px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.saying-author {
+    width: 450px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
 .show02_box1{
+    width: 100%;
     height: 60px;
     background-color: rgba(47, 47, 47, 0.7);
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
+    transition: all, .2s;
 }
 
-#classification-text{
+.classification-text{
     display: flex;
-    width: 185px;
     height: 60px;
-    font-size: 35px;
-    text-align: center;
+    width: 170px;
     line-height: 60px;
-    background-color: rgba(47, 47, 47, 0.5);
-    margin-left: 74px;
+    background: rgba(47, 47, 47, 0.7);
+    margin-left: 50px;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
-#nev{
-    margin-left: 74px;
-    font-size: 20px;
-    text-align: center;
-    width: 185px;
-    height: 180px;
-    /* background-color:rgba(31, 32, 32, 0.9) ; */
 
+.classification-text span{
+    font-size: 25px;
 }
-#nev a{
+
+.icon-liebiao{
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 15px;
+}
+
+.nev{
+    display: none;
+    margin-left: 50px;
+    font-size: 20px;
+    width: 170px;
+    height: 180px;
+    color: white;
+    font-weight: 300;
+}
+
+.nev button{
     display: block;
-    width: 185px;
-    height: 30px;
+    margin: auto;
+    width: 170px;
+    height: 35px;
+    padding-left: 40px;
     background-color:rgba(36, 36, 36, 0.8);
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    color: white;
+    text-align: left;
 }
-.search{
-    margin-left: 293px;
-    margin-top: 13px;
-    height: 42px;
-    width: 700px;
-    background-color: rgba(38, 130, 182, 0.9);
-    border-radius: 2px;
+
+.nev button:hover{
+    background-color:rgb(36, 36, 36);
+}
+
+.search {
+    margin: auto;
     display: flex;
-}
-.search div{
-    width: 40px;
+    margin-top: 10px;
     height: 40px;
+    width: 700px;
+    background-color: white;
+    border-radius: 11px;
+}
+
+#search-book{
+    transform: translateX(-115px);
+}
+
+#search-borrow{
+    margin-top: 50px;
+}
+
+.search input{
+    height: 100%;
+    border: none;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 300;
+    outline: none;
+    width: 760px;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.search input::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+.search .search-logo-box{
+    width: 50px;
+    height: 40px;
+    background: #2c84b4;
+    border-radius: 11px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.search .icon-sousuoxiao{
+    color: white;
 }
 
 .show02_box2{
-    width: 1100px;
-    height: 660px;
-    margin: 56px auto 0;
-    display: flex;
-    justify-content: space-between;
-}
-.book_list{
-    height: 100%;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 10px;
-}
-.book_list_box{
-    height: 200px;
-    width: 500px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid black;
-}
-.book_box1{
-    border-radius: 0;
-    margin-top:18px ;
-    margin-left: 20px;
-    height: 130px;
-    width: 460px;
-    /* background-color: pink; */
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-}
-.photo{
-    margin-top: 0px;
-    width: 100px;
-    height: 130px;
-    background-color: white;
-}
-.massage{
-    margin-top: 0px;
-    height: 122px;
-    width: 348px;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.book_box2{
-    margin-top: 17px;
-    margin-left: 20px;
-    height: 30px;
-    width: 176px;
-    /* background-color: pink; */
-}
-.book_box2 button{
-    border-radius: 50px;
-    background-color: rgba(38, 130, 182, 0.9);
-    border: none;
-    width: 80px;
-    height: 28px;
-    font-size: 17px;
-}
-.show02_box3{
-    height: 20px;
-    width: 290px;
-    background-color: white;
-    margin: 70px auto 0;
-}
-#show03{
-    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/89e98a8f841bd450af3d421546742109.png);
-    background-repeat: no-repeat;
-    background-size: 2040px 100%;
-}
-table{
-    width:1200px;
+    width: 1200px;
     margin: auto;
-    margin-top: 89px;
-    /* font-size: 22px; */
+    margin-top: 30px;
+}
+
+.book-list{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 580px;
+    height: 210px;
+    background: linear-gradient(99.09deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 100%);
+    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.book-info-box {
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    height: 160px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.cover {
+    height: 160px;
+    width: 120px;
+    background: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.book-info {
+    width: 440px;
+    height: 160px;
+}
+
+.book-info span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.book-info h2{
+    margin-bottom: 5px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.book-info h2 span{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.introduction {
+    margin-top: 10px;
+    width: 440px;
+    height: 160px;
+    font-weight: 300;
+}
+
+.borrow {
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: rgba(38, 130, 182, 0.8);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all .1s;
+}
+
+.borrow:hover{
+   border: solid 1px white;
+   color: rgba(255, 255, 255, 0.9);
+}
+
+.stack-number-box{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.pagination-container {
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(90.27deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 100%);
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    height: 30px;
+    width: 1200px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination button {
+    background-color: transparent;
+    color: #fff;
+    padding: 1px 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    color: black;
     font-size: 16px;
+}
+
+.pagination button.active {
+    background: #55C1FF;
+}
+
+.page-change {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.page-change:hover {
+    text-decoration: underline;
+}
+
+.skip input {
+    width: 30px;
+}
+
+.skip input:focus {
+    outline: none;
+}
+
+/* 我的借阅 */
+.my-borrow{
+    display: flex;
+    flex-direction: column;
+    width:1400px;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 20px;
     background-color: rgba(0, 0, 0, 0.15);
     text-align: center;
-    border-collapse: collapse;
     border: #FFFFFF;
 }
-.mySearch{
-    margin-top: 56px;
-    margin-left: 500px;
-    height: 42px;
-    width: 800px;
-    /* background-color: pink; */
-    background-color: rgba(91, 184, 237, 0.9);
-    border-radius: 2px;
+
+.my-borrow tr{
     display: flex;
-}
-tr{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-table button{
-    width: 100px;
+    justify-content: space-between;
+    align-items: center;
     height: 40px;
-    font-size: 25px;
-    border:1px solid rgb(183, 228, 245);
+    width: 1400px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 100%);
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.my-borrow th,
+.my-borrow td{
+    width:120px
+}
+
+.my-borrow .time-header,
+.my-borrow .borrow-time,
+.my-borrow .return-time{
+    width:180px
+}
+
+.my-borrow .state {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(67, 182, 127, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1px);
+    border-radius: 3px;
+    color: white;
+    font-weight: 300;
+}
+
+.my-borrow .handle{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border:none;
     background-color: rgb(210, 210, 210);
     border-radius: 50px;
+    font-size: 20px;
+    font-weight: 300;
 }
-input{
-    font-size: 25px;
-    border-radius: 2px;
-    outline: none;
-    width: 760px;
-    height: 38px;
-    border: 1px solid black;
+
+.handle,.handle-header,.my-borrow .state-header{
+    width: 120px;
 }
+
+#pagination2{
+    width: 1400px;
+    margin-top: 30px;
+}
+
+

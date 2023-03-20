@@ -1,329 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>图书管理系统</title>
     <link rel="stylesheet" href="./font_3792744_8fxjxr2kc6t/iconfont.css">
-    <script src="./index.js"> </script>
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"> </script>
     <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.4/axios.js"></script>
 </head>
+
 <body>
-    <div class="box" id="box">
-        <div class="title" id="title">
-            <div class="title-text">图书管理系统用户端</div>
-            <div class="title_content">
-                <img src="https://donghehe.oss-cn-hangzhou.aliyuncs.com/2612d1536145266d93393f46db998a2e.png" alt="">
-                <div class="title_text">
-                    <span>请爱护书刊资料，并在规定日期内归还所借阅书籍。</span>
-                </div>
-                <div id="symbol" class="symbol">
-                    <div>
-                        <div  class="iconfont icon-denglu"style=" width: 50px;height: 75px;"></div>
-                        <a href="">我的</a>
-                    </div>
-                    <div id="deng-lu">
-                        <a class="iconfont icon-tuichu" style=" font-size: 20px;"> 退出登录</a>
-                        <a class="iconfont icon-24gl-repeat2"style="font-size: 20px;">切换账号</a>
-                    </div>
-                </div>
+    <header>
+        <h1>图书管理系统</h1>
+        <span class="title_text">请爱护书刊资料，在规定日期内归还书籍</span>
+        <div id="symbol" class="symbol">
+            <div class="my-account">
+                <div class="iconfont icon-denglu"></div>
+                <a class="my">我的账号</a>
             </div>
-
+            <div id="login" class="login">
+                <a id="quit-login">
+                    <span class="iconfont icon-tuichu"></span>
+                    <span class="word">退出登录</span>
+                </a>
+                <a id="change-login">
+                    <span class="iconfont icon-24gl-repeat2"></span>
+                    <span class="word">切换账号</span>
+                </a>
+            </div>
         </div>
-        <div id="content">
-            <div class="list">
-                <div class="shell">
-                    <a  class="main boxShadow" id="btn01" >
-                        <div class="shell_box">
-                            <div class="text1">系统首页</div>
-                            <div class="iconfont icon-2shouye2"></div>
+    </header>
+    <aside>
+        <div class="logo-name">
+            YUN TENG
+        </div>
+        <div class="aside-logo-box">
+            <img class="aside-logo" src="https://xirealm.oss-cn-beijing.aliyuncs.com/xi/logo1(3).png" alt="">
+        </div>
+        <div class="menu" id="aside-menu">
+            <a class="selected" href="./index.html">
+                <div class="menu-content">系统首页</div>
+                <div class="iconfont icon-2shouye2"></div>
+            </a>
+            <a>
+                <div class="menu-content">查看书库</div>
+                <div class="iconfont icon-ziliaoku"></div>
+            </a>
+            <a>
+                <div class="menu-content">我的借阅</div>
+                <div class="iconfont icon-chakan"></div>
+            </a>
+            <a>
+                <div class="menu-content">个人中心</div>
+                <div class="iconfont icon-2shouye2"></div>
+            </a>
+        </div>
+    </aside>
+    <main>
+        <div class="show" id="show1">
+            <h1 class="show01_text1">图书管理系统欢迎您</h1>
+            <div class="show01_text2">Library management system welcome you</div>
+            <div class="show01_content">
+                <div class="show_content_box">
+                    <div class="recommend">
+                        <h1 class="recommend_text">为您推荐</h1>
+                        <div class="recommend_content">
+                            <div class="book1"></div>
+                            <div class="book2"></div>
+                            <div class="book5"></div>
+                            <div class="book4"></div>
+                            <div class="book3"></div>
                         </div>
-                    </a>
-                    <a class="main">
-                        <div id="btn02" class="shell_box">
-                            <div class="text2">查看书库</div>
-                            <div class="iconfont icon-ziliaoku"></div>
+                    </div>
+                    <div class="leaderboard">
+                        <h1 class="leaderboard_text">借阅排行榜</h1>
+                        <div class="leaderboard_content">
+                            <div>
+                                <p>1. 明朝那些事</p>
+                                <p>2. 我们仨</p>
+                                <p>3. 月亮与六便士3</p>
+                                <p>4. 白鹿原</p>
+                                <p>5. 平凡的世界</p>
+                            </div>
+                            <div>
+                                <p>6. 三体</p>
+                                <p>7. 活着</p>
+                                <p>8. 牵风记</p>
+                                <p>9. 围城</p>
+                                <p>10. 繁花</p>
+                            </div>
                         </div>
-                    </a>
-                    <a class="main">
-                        <div id="btn03" class="shell_box">
-                            <div class="text3">我的借阅</div>
-                            <div class="iconfont icon-chakan"></div>
+                    </div>
+                </div>
+                <div class="allusion">
+                    <h1 class="allusion_text">每日一言</h1>
+                    <div class="allusion_content">
+                        <div class="date">
+                            <div style="font-size: 80px;">21</div>
+                            <div>2023.03 星期二</div>
                         </div>
-                    </a>
-
+                        <div class="saying-box">
+                            <div class="saying">我读书越多，书籍就使我和世界越接近，生活对我也变得越加光明和有意义。</div>
+                            <div class="saying-author">—— 高尔基</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="show" style="display:block" id="show01">
-                    <div class="show01_text">图书管理系统欢迎你</div>
-                    <div class="show_content">
-                        <div class="show_content_box">
-                            <div class="recommend">
-                                <div class="recommend_text"></div>
-                                <div class="recommend_photo"></div>
-                            </div>
-                            <div class="leaderboard">
-                                <div class="leaderboard_text"></div>
-                                <div class="leaderboard_photo"></div>
-                            </div>
-                        </div>
-                            <div class="allusion">
-                                <div class="allusio_text"></div>
-                                <div class="allusion_photo"></div>
-                            </div>
+        </div>
+        <div class="show" id="show2">
+            <div class="show02_box1">
+                <div id="classification">
+                    <div class="classification-text">
+                        <div class="iconfont icon-liebiao"></div>
+                        <span>作品分类</span>
                     </div>
+                    <div class="nev">
+                        <button>哲学类</button>
+                        <button>社会科学类</button>
+                        <button>政治类</button>
+                        <button>军事类</button>
+                        <button>文化类</button>
+                        <button>体育类</button>
+                    </div>
+                </div>
+                <div class="search" id="search-book">
+                    <input type="text" placeholder="书名/作者名">
+                    <div class="search-logo-box">
+                        <div class="iconfont icon-sousuoxiao"></div>
+                    </div>
+                </div>
             </div>
-            <div class="show"  id="show02">
-                <div class="show02_box1">
-                    <div id="classification">
-                        <div id="classification-text">
-                            <div class="iconfont icon-liebiao"></div>
-                            作品分类
-                        </div>
-                        <div id="nev">
-                            <!-- onclick="Show('nev') -->
-                            <a>哲学类</a>
-                            <a>社会科学类</a>
-                            <a>政治类</a>
-                            <a>军事类</a>
-                            <a>文化类</a>
-                            <a>体育类</a>
-                        </div>
-                    </div>
-                    <div class="search">
-                        <input type="text"placeholder="请输入.....">
-                        <div >
-                            <div class="iconfont icon-sousuoxiao" ></div>
-                        </div>
-                    </div>
+            <div class="show02_box2">
+                <div class="book-list"></div>
+                <!--分页容器-->
+                <div class="pagination-container">
+                    <span class="page-change prev">上一页</span>
+                    <div class="pagination"></div>
+                    <span class="page-change next">下一页</span>
                 </div>
-                <div class="show02_box2">
-                    <div class="book_list">
-                        <div class="book_list_box">
-                            <div class="book_box1">
-                                <div class="photo"></div>
-                                <div class="massage">
-                                    <p>书名</p>
-                                    <p>信息</p>
-                                    <p>简介</p>
-                                </div>
-                            </div>
-                            <div class="book_box2">
-                                <button>申请借阅</button>
-                                <a>剩余书本</a>
-                            </div>
-                        </div>
-                        <div class="book_list_box">
-                            <div class="book_box1">
-                                <div class="photo"></div>
-                                <div class="massage">
-                                    <p>书名</p>
-                                    <p>信息</p>
-                                    <p>简介</p>
-                                </div>
-                            </div>
-                            <div class="book_box2">
-                                <button>申请借阅</button>
-                                <span>剩余书本</span>
-                            </div>
-                        </div>
-                        <div class="book_list_box">
-                            <div class="book_box1">
-                                <div class="photo"></div>
-                                <div class="massage">
-                                    <p>书名</p>
-                                    <p>信息</p>
-                                    <p>简介</p>
-                                </div>
-                            </div>
-                            <div class="book_box2">
-                                <button>申请借阅</button>
-                                <span>剩余书本</span>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="book_list">
-                        <div class="book_list_box">
-                            <div class="book_box1">
-                                <div class="photo"></div>
-                                <div class="massage">
-                                    <p>书名</p>
-                                    <p>信息</p>
-                                    <p>简介</p>
-                                </div>
-                            </div>
-                            <div class="book_box2">
-                                <button>申请借阅</button>
-                                <span>剩余书本</span>
-                            </div>
-                        </div><div class="book_list_box">
-                            <div class="book_box1">
-                                <div class="photo"></div>
-                                <div class="massage">
-                                    <p>书名</p>
-                                    <p>信息</p>
-                                    <p>简介</p>
-                                </div>
-                            </div>
-                            <div class="book_box2">
-                                <button>申请借阅</button>
-                                <span>剩余书本</span>
-                            </div>
-                        </div><div class="book_list_box">
-                            <div class="book_box1">
-                                <div class="photo"></div>
-                                <div class="massage">
-                                    <p>书名</p>
-                                    <p>信息</p>
-                                    <p>简介</p>
-                                </div>
-                            </div>
-                            <div class="book_box2">
-                                <button>申请借阅</button>
-                                <span>剩余书本</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div  class="show02_box3"></div>
             </div>
-            <div class="show" id="show03">
-                <div class="mySearch">
-                    <input type="text" placeholder="请输入.....">
-                        <div >
-                            <div class="iconfont icon-sousuoxiao" ></div>
-                        </div>
+        </div>
+        <div class="show" id="show3">
+            <div class="search" id="search-borrow">
+                <input type="text" placeholder="请输入书名">
+                <div class="search-logo-box">
+                    <div class="iconfont icon-sousuoxiao"></div>
                 </div>
-                <table  width="1172" height="550" >
+            </div>
+            <table class="my-borrow">
+                <thead>
                     <tr>
                         <th>序号</th>
-                        <th>图书编号</th>
                         <th>图书名称</th>
+                        <th>图书编号</th>
                         <th>图书类型</th>
                         <th>作者</th>
-                        <th>库存（/本）</th>
+                        <th class="time-header">借阅时间</th>
+                        <th class="time-header">归还时间</th>
+                        <th class="state-header">状态</th>
+                        <th class="handle-header">操作</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <!--分页容器-->
+            <div class="pagination-container" id="pagination2" >
+                <span class="page-change prev">上一页</span>
+                <div class="pagination"></div>
+                <span class="page-change next">下一页</span>
+            </div>
+            <!-- <table class="my-borrow">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>图书名称</th>
+                        <th>图书编号</th>
+                        <th>图书类型</th>
+                        <th>作者</th>
                         <th>借阅时间</th>
                         <th>归还时间</th>
-                        <th>状态</th>
+                        <th class="state-header">状态</th>
+                        <th class="handle-header">操作</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>1</td>
-                        <td>0001</td>
                         <td>《活着》</td>
+                        <td>0001</td>
                         <td>小说</td>
                         <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
+                        <td>2023-02-03 9:30</td>
+                        <td>————</td>
+                        <td class="state">未归还</td>
+                        <td><button class="handle">归还</button></td>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr><tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr><tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr><tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>0001</td>
-                        <td>《活着》</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>10</td>
-                        <td>2022/5/12</td>
-                        <td>----</td>
-                        <td><button>归还</button></td>
-                    </tr>
-                </table>
-            </div>
+                </tbody>
+            </table> -->
         </div>
-    </div>
-
+        <div class="show" id="page4">
+            <div class="show01_text">图书管理系统欢迎你</div>
+        </div>
+    </main>
 </body>
+
 </html>
