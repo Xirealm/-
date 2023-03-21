@@ -9,12 +9,15 @@ function registeremail() {
     var error1 = document.getElementById("error1");
     console.log(error1);
     console.log(res);
-    if (res === false) {
-        error1.style.display = "block";
-    } else {
+    if (res ===true||str==="admin") {
         error1.style.display = "none";
+        return 0;
+    } else {
+        error1.style.display = "block";
+        return 1;
     }
 }
+var result=registeremail()
 //发送注册请求
 function register0() {
     var name = register[0].value;
@@ -24,9 +27,10 @@ function register0() {
     var number = register[3].value;
     var code = password1[1].value;
     console.log("hhh");
-    axios({
+   
+        axios({
         method: 'post',
-        url: 'http://rmk2x2.natappfree.cc/Books_Managerment_System_war_exploded/RegisterServlet',
+        url: 'http://pmwiz6.natappfree.cc/Books_Managerment_System_war_exploded/RegisterServlet',
         params: {
             "username": name,
             "password": password,
@@ -35,12 +39,16 @@ function register0() {
             "email": email,
             "invitationCode": code,
         }
-    }).then((res) => {
-        alert(res.data.message)
-        console.log(res.data.message)
-        window.location.href = "http://127.0.0.1:5500/book_login/login.html"
-    }
-        
+        }).then((res) => {
+            alert(res.data.message)
+            console.log(res.data.message)
+            if (res.data.message == "注册成功") {
+                window.location.href = "./login.html"
+            }
+        }
     ).catch((e) => { })
     console.log("ha");
-}
+    }
+    
+
+    

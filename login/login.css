@@ -19,9 +19,6 @@
   width: 748px;
   height: 470px;
   border-radius: 20px;
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: ; */
   background: linear-gradient(
     110.63deg,
     rgba(255, 255, 255, 0.5) 0.39%,
@@ -129,4 +126,7 @@ input::placeholder {
   width: 48px;
   height: 12px;
   padding-left: 535px;
+}
+.wang {
+  padding-top: 50px;
 }

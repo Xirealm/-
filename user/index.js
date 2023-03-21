@@ -872,6 +872,20 @@
 }
 {
     const page3 = document.querySelector("#show3")
+    window.onload = () => {
+        axios({
+            method: "POST",
+            url: "http://frp-fly.top:22363/borrowServlet",
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded`' },
+            data: {
+                "username ": "zhangsan"
+            }
+        })
+            .then(function (response) {
+                console.log("注册报文", response.data);
+            })
+    }
+    
     let borrowsData = [
         {
             order:"1",
