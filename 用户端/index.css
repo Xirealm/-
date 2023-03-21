@@ -770,6 +770,9 @@ aside .selected {
 }
 
 .information{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     height: 320px;
     width: 360px;
     background-color: #FFFFFF;
@@ -784,17 +787,32 @@ aside .selected {
 .information_photo{
     height: 80px;
     width: 80px;
-    margin: 10px auto 5px;
+    margin: auto;
+    margin-top: 10px;
     border-radius: 50px;
-    background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/d912057f77bbdb90ab71a96bdd5614b5.png);
-    background-size: 80px 80px;
+}
+
+.photo-file{
+    display: none;
+}
+
+.edit-photo{
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    color: #8A8A8A;
+}
+
+.edit-photo:hover{
+    text-decoration: underline;
 }
 .user{
     display: flex;
     flex-direction: column;
 }
-.user_name{
-    margin: 10px auto 5px;
+.user-name{
+    margin: 0 auto;
     font-size: 18px;
 }
 .user div:nth-child(2){

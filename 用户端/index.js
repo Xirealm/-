@@ -1584,3 +1584,35 @@
         render();
     }
 }
+//头像的修改
+{
+    let userPhoto = document.querySelector(".information_photo")
+    let photoFile = document.querySelector(".photo-file")
+    const editPhoto = document.querySelector(".edit-photo")
+    editPhoto.onclick = function () {
+        photoFile.click()
+    }
+    photoFile.onchange = function () {
+        let reader = new FileReader();
+        reader.readAsDataURL(this.files[0]);
+        reader.onload = function () {
+            userPhoto.src = reader.result;
+        }
+    }
+}
+{
+    const change = document.querySelector(".change")
+    let information = document.querySelector(".information")
+    let infoInput = information.querySelectorAll("input")
+    window.onload = () => {
+        for (let i = 1; i < infoInput.length; i++){
+            infoInput[i].disabled = true
+         }
+    }
+    change.onclick = () => {
+        for (let i = 1; i < infoInput.length; i++) {
+            infoInput[i].disabled = false
+            infoInput[i].style.borderBottom = "solid 1px black"
+        }
+    }
+}
