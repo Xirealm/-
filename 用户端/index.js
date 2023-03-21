@@ -1286,6 +1286,14 @@
                 </tr>
             `;
         });
+        // for (let i = 0; i < borrowList.length; i++) {
+        //     borrowList.insertAdjacentHTML("beforebegin",
+        //         `
+        //             <td>i</td>
+            
+        //         `
+        //     )
+        // }
     };
     //初始化页面
     render();
