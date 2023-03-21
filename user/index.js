@@ -75,8 +75,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -85,8 +86,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -95,8 +97,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -105,8 +108,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -115,8 +119,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -125,8 +130,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -135,8 +141,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -145,8 +152,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -155,8 +163,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -165,8 +174,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -175,8 +185,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -185,8 +196,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -195,8 +207,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -205,8 +218,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -215,8 +229,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -225,8 +240,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -235,8 +251,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -245,8 +262,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -255,8 +273,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -265,8 +284,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -275,8 +295,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -285,8 +306,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -295,8 +317,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -305,8 +328,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -315,8 +339,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -325,8 +350,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -335,8 +361,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -345,8 +372,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -355,8 +383,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -365,8 +394,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -375,8 +405,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -385,8 +416,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -395,8 +427,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -405,8 +438,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -415,8 +449,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -425,8 +460,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -435,8 +471,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -445,8 +482,9 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
+            stackNumber: "9"
         },
         {
             cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
@@ -455,309 +493,10 @@
             author: "吴承恩",
             type: "小说",
             publish: "人民出版社",
+            location:"2号书架4层B区",
             introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
-        {
-            cover: 'https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png',
-            number: '0001',
-            bookName: "西游记",
-            author: "吴承恩",
-            type: "小说",
-            publish: "人民出版社",
-            introduction: "孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。",
-            stackNumber: 9
-        },
+            stackNumber: "9"
+        },        
     ];
     let bookList = page2.querySelector('.book-list');//新闻容器
     let bookPagination = page2.querySelector('.pagination');//分页容器
@@ -774,24 +513,24 @@
              `   
                 <div class="book">
                      <div class="book-info-box">
-                        <img class="cover" src="https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png"></img>
+                        <img class="cover" src=${item.cover}></img>
                         <div class="book-info">
                             <h2>
                                 <span class="number">${item.number}</span>
                                 <span class="bookName">${item.bookName}</span>
                             </h2>
-                            <span class="author">吴承恩</span>
-                            <span class="type">小说</span>
-                            <span>人民出版社</span>
-                            <span>2号书架4层B区</span>
+                            <span class="author">${item.author}</span>
+                            <span class="type">${item.type}</span>
+                            <span>${item.publish}</span>
+                            <span>${item.location}</span>
                             <div class="introduction">
-                                孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。
+                                ${item.introduction}
                             </div>
                         </div>
                     </div>
                     <button class="borrow">申请借阅</button>
                     <span class="stack-number-box">
-                        当前库存<span class="stack-number">9</span>本
+                        当前库存<span class="stack-number">${item.stackNumber}</span>本
                     </span>
                 </div>
             `;
@@ -878,7 +617,7 @@
             url: "http://frp-fly.top:22363/borrowServlet",
             headers: { 'Content-Type': 'application/x-www-form-urlencoded`' },
             data: {
-                "username ": "zhangsan"
+                "username": "zhangsan"
             }
         })
             .then(function (response) {
