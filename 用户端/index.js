@@ -65,42 +65,6 @@
         nev.style.display = "none"
     }
 }
-//图书的动态生成
-// {
-//     let book = []
-//     const booklist = document.querySelector(".book-list")
-//     function booklistCreate() {
-//         for (let i = 0; i < 6; i++) {
-//             book[i] = document.createElement("div")
-//             book[i].className = "book"
-//             booklist.appendChild(book[i])
-//             book[i].insertAdjacentHTML("beforeend",
-//                 `
-//                     <div class="book-info-box">
-//                         <img class="cover" src="https://xirealm.oss-cn-beijing.aliyuncs.com/xi/西游记.png"></img>
-//                         <div class="book-info">
-//                             <h2>
-//                                 <span class="number">0001</span>
-//                                 <span class="bookName">西游记</span>
-//                             </h2>
-//                             <span class="author">吴承恩</span>
-//                             <span class="type">小说</span>
-//                             <span>人民出版社</span>
-//                             <div class="introduction">
-//                                     孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。
-//                             </div>
-//                         </div>
-//                     </div>
-//                     <button class="borrow">申请借阅</button>
-//                     <span class="stack-number-box">
-//                         当前库存<span class="stack-number">9</span>本
-//                     </span>
-//             `
-//             )
-//         }
-//     }
-//     booklistCreate()
-// }
 {
     const page2 = document.querySelector("#show2")
     let booksData = [

@@ -1,6 +1,11 @@
 let book = []
 const booklist = document.querySelector("tbody")
 //图书清单的动态生成
+let bookData = [
+    {
+        
+    }
+]
 function booklistCreate(){
     for (let i = 0; i < 100; i++) {
         book[i] = document.createElement("tr")
