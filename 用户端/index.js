@@ -1601,7 +1601,9 @@
     }
 }
 {
-    const change = document.querySelector(".change")
+    let change = document.querySelector(".change")
+    let save = document.createElement("button")
+    const buttonBox = document.querySelector(".button-box")
     let information = document.querySelector(".information")
     let infoInput = information.querySelectorAll("input")
     window.onload = () => {
@@ -1609,10 +1611,24 @@
             infoInput[i].disabled = true
          }
     }
-    change.onclick = () => {
+    change.addEventListener("click", () => {
+        change.remove()
+        buttonBox.appendChild(save)
+        save.className = "save"
+        save.textContent = "保存修改"
         for (let i = 1; i < infoInput.length; i++) {
             infoInput[i].disabled = false
             infoInput[i].style.borderBottom = "solid 1px black"
         }
-    }
+    })
+    save.addEventListener("click", () => {
+        save.remove()
+        buttonBox.appendChild(change)
+        change.className = "change"
+        change.textContent = "修改个人资料"
+        for (let i = 1; i < infoInput.length; i++) {
+            infoInput[i].disabled = true
+            infoInput[i].style.borderBottom = "none"
+        }
+    })
 }
