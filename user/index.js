@@ -617,7 +617,7 @@
             url: "http://frp-fly.top:22363/borrowServlet",
             headers: { 'Content-Type': 'application/x-www-form-urlencoded`' },
             data: {
-                "username": "zhangsan"
+                "username": "zhangsan",
             }
         })
             .then(function (response) {
