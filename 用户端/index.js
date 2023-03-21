@@ -783,6 +783,7 @@
                             <span class="author">吴承恩</span>
                             <span class="type">小说</span>
                             <span>人民出版社</span>
+                            <span>2号书架4层B区</span>
                             <div class="introduction">
                                 孙悟空出世跟随菩提祖师学艺及大闹天宫后，遇见了唐僧、猪八戒、沙僧和白龙马，西行取经，一路上历经艰险，降妖除魔，经历了九九八十一难，终于到达西天见到如来佛祖，最终五圣成真的故事。
                             </div>

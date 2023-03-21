@@ -417,19 +417,19 @@ booklistCreate()
                 `
             )
             const inputOrder = bookEdit[i].querySelector(".input-order")
-            inputOrder.value = i+1
+            inputOrder.value = bookData[i].number
             const inputName = bookEdit[i].querySelector(".input-name")
-            inputName.value = "三体"
+            inputName.value = bookData[i].bookName
             const inputAuthor = bookEdit[i].querySelector(".input-author")
-            inputAuthor.value = "刘慈欣"
+            inputAuthor.value = bookData[i].bookAuthor
             const inputType = bookEdit[i].querySelector(".input-type")
-            inputType.value = "科幻"
+            inputType.value = bookData[i].bookType
             const inputTime = bookEdit[i].querySelector(".input-time")
             inputTime.value = "重庆出版社"
             const inputIntroduction = bookEdit[i].querySelector(".input-introduction")
             inputIntroduction.value = "作品讲述了地球人类文明和三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。"
             const inputNumber = bookEdit[i].querySelector(".input-number")
-            inputNumber.value = 76
+            inputNumber.value = bookData[i].stackNumber
             const inputLocation = bookEdit[i].querySelector(".input-location")
             inputLocation.value = "图书馆三层东部书库科幻区"
             const bookCoverEditBtn = bookEdit[i].querySelector(".book-cover-edit-btn")
