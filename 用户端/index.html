@@ -6,16 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>图书管理系统</title>
-    <link rel="stylesheet" href="./font_3792744_8fxjxr2kc6t/iconfont.css">
+    <!-- <link rel="stylesheet" href="./font_3792744_8fxjxr2kc6t/iconfont.css"> -->
+    <link rel="stylesheet" href="./font_3792744_um7t9t18dsr/iconfont.css">
     <link rel="stylesheet" href="./index.css">
     <script defer src="./index.js"> </script>
     <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.4/axios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>图书管理系统</h1>
-        <span class="title_text">请爱护书刊资料，在规定日期内归还书籍</span>
+        <h1>图书管理系统用户端</h1>
+        <span class="title_text">
+            <p class="text01">
+                请爱护书刊资料，在规定日期内归还书籍,请勿损坏图书
+            </p>
+        </span>
         <div id="symbol" class="symbol">
             <div class="my-account">
                 <div class="iconfont icon-denglu"></div>
@@ -55,7 +61,7 @@
             </a>
             <a>
                 <div class="menu-content">个人中心</div>
-                <div class="iconfont icon-2shouye2"></div>
+                <div class="iconfont iconfont icon-gerenzhuye"></div>
             </a>
         </div>
     </aside>
@@ -98,15 +104,41 @@
                 <div class="allusion">
                     <h1 class="allusion_text">每日一言</h1>
                     <div class="allusion_content">
-                        <div class="date">
-                            <div style="font-size: 80px;">21</div>
-                            <div>2023.03 星期二</div>
+                        <div class="allusion_content_box">
+                                <div class="allusion_show">
+                                <div class="date">
+                                    <div style="font-size: 80px;">21</div>
+                                    <div>2023.03 星期二</div>
+                                </div>
+                                <div class="saying-box">
+                                    <div class="saying">我读书越多，书籍就使我和世界越接近，生活对我也变得越加光明和有意义。</div>
+                                    <div class="saying-author">—— 高尔基</div>
+                                </div>
+                            </div>
+                            <div class="allusion_show">
+                                <div class="date">
+                                    <div style="font-size: 80px;">21</div>
+                                    <div>2023.03 星期二</div>
+                                </div>
+                                <div class="saying-box">
+                                    <div class="saying">我读书越多，书籍就使我和世界越接近，生活对我也变得越加光明和有意义。</div>
+                                    <div class="saying-author">—— 高尔基</div>
+                                </div>
+                            </div>
+                            <div class="allusion_show">
+                                <div class="date">
+                                    <div style="font-size: 80px;">21</div>
+                                    <div>2023.03 星期二</div>
+                                </div>
+                                <div class="saying-box">
+                                    <div class="saying">我读书越多，书籍就使我和世界越接近，生活对我也变得越加光明和有意义。</div>
+                                    <div class="saying-author">—— 高尔基</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="saying-box">
-                            <div class="saying">我读书越多，书籍就使我和世界越接近，生活对我也变得越加光明和有意义。</div>
-                            <div class="saying-author">—— 高尔基</div>
-                        </div>
+                        
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -201,8 +233,76 @@
                 </tbody>
             </table> -->
         </div>
-        <div class="show" id="page4">
-            <div class="show01_text">图书管理系统欢迎你</div>
+        <div class="show" id="show04">
+            <div class="show04_content">
+                <div class="show04_content1">
+                    <div class="information">
+                        <div class="information_photo"></div>
+                        <div class="information_content">
+                            <div class="people">
+                                <div class="people_name">自律自由</div>
+                                <div>
+                                    <div class="people_content">详情</div>
+                                    <button class="change">修改个人信息</button>
+                                </div>
+                            </div>
+                           
+                            <hr>
+                            <div>
+                                <p>姓名</p>
+                                <input type="text"value="XXX">
+                            </div>
+                            <div>
+                                <p>期数</p>
+                                <input type="text" value="七期">
+                            </div>
+                            <div>
+                                <p>方向</p>
+                                <input type="text" value="全栈">
+                            </div>
+                            <div>
+                                <p>邮箱号</p>
+                                <input type="text" value="2917864860@qq.com">
+                            </div>
+                            <div>
+                                <p>ip属地</p>
+                                <input type="text" value="山西">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="form" class="form">
+                        <div>用户图书借阅走势图</div>
+                        <div id="form1" class="form1"></div>
+                    </div>
+                </div>
+                <div class="show04_content2">
+                    <div class="tasks">
+                        <div class="task">
+                            <div class="task_text">
+                                <p>借阅中</p>
+                                <p>2</p>
+                            </div>
+                            <div class="iconfont icon-jiebei"></div>
+                        </div>
+                        <div class="task">
+                            <div class="task_text">
+                                <p>借阅中</p>
+                                <p>2</p>
+                            </div>
+                            <div class="iconfont icon-shenpishenhe"></div>
+                        </div>
+                        <div class="task">
+                            <div class="task_text">
+                                <p>已归还</p>
+                                <p>2</p>
+                            </div>
+                            <div class="iconfont icon-manage-the-return-of-books"></div>
+                        </div>
+                    </div>
+                    <div id="form2" class="form2"></div>
+                </div>
+            </div>
+             
         </div>
     </main>
 </body>
