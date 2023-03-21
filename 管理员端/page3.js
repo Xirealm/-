@@ -1,3 +1,23 @@
+// axios({
+//     method: "GET",
+//     url: "http://pmwiz6.natappfree.cc/Books_Managerment_System_war_exploded/borrowerServlet",
+//     headers: { 'Content-Type': 'application/x-www-form-urlencoded`' },
+//     // data: {
+//     //     "img": "https://xirealm.oss-cn-beijing.aliyuncs.com/xi/clip_image006.gif" ,
+//     //     "number": "12",
+//     //     "bookName": "体",
+//     //     "classify": "歌",
+//     //     "author": "刘欣",
+//     //     "publisher": "重庆版社",
+//     //     "bookLocation": "三层",
+//     //     "content": "baal",
+//     //     "count": "3",
+//     //     "bookName": "三体",
+//     // }
+// })
+//     .then(function (response) {
+//         console.log("注册报文", response.data);
+//     })
 const borrow = []
 //借阅审批清单的动态生成
 {
