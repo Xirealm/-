@@ -5,7 +5,7 @@
 }
 
 body{
-    /* overflow: hidden; */
+    overflow: hidden;
     background: url("https://xirealm.oss-cn-beijing.aliyuncs.com/xi/v2-4512c514732c060dd6b4f4269de50d01_r.jpg") no-repeat;
     background-size: 100%;
 }
@@ -28,16 +28,15 @@ header h1{
 }
 
 .title_text{
+    margin: auto;
     margin-top: 10px;
-    /* background: #FFFFFF; */
+    transform: translateX(-50px);
     color:#FFFFFF;
     font-size: 26px;
     height: 40px;
     width: 650px;
     line-height: 40px;
-    margin-left: 50px;
     line-height: 40px;
-    border-radius: 11px;
     text-align: center;
     font-weight: 300;
     overflow: hidden;
@@ -46,7 +45,7 @@ header h1{
 .text01{
     transform: translateX(800px);
     animation-name:gun;
-    animation-duration:7s;
+    animation-duration:10s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
 }
@@ -832,9 +831,8 @@ aside .selected {
 }
 .form{
     height: 350px;
-    width: 360px;
+    width: 350px;
     background-color: #FFFFFF;
-    /* background-color: tomato; */
     margin: 20px auto 0;
     border-radius: 10px;
     border: rgba(255, 255, 255, 0.4) 2px solid;
@@ -849,12 +847,10 @@ aside .selected {
 .form1{
     height: 300px;
     width: 355px;
-    /* background-color: pink; */
 }
 .tasks{
     width: 850px;
     height: 200px;
-    /* background-color: aqua; */
     margin: 0 auto ;
     display: flex;
     justify-content: space-around;
@@ -869,16 +865,24 @@ aside .selected {
     backdrop-filter: blur(5px);
     display: flex;
     justify-content: space-around;
-
 }
+
 .task_text{
     margin-top: 40px;
     height: 70px;
-    width: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+.task_text .state{
+    font-size: 20px;
+}
+
+.task_text .number{
+    font-size: 20px;
+}
+
 .icon-jiebei{
     margin-top: 55px;
 }
@@ -891,10 +895,9 @@ aside .selected {
 
 }
 .form2{
-    width: 780px;
-    height: 500px;
+    width: 820px;
+    height: 510px;
     background-color: #FFFFFF;
-    /* background-color: blanchedalmond; */
     margin: 0 auto;
     border-radius: 10px;
     border: rgba(255, 255, 255, 0.4) 2px solid;
@@ -905,7 +908,4 @@ aside .selected {
 .information_content input{
     height: 20px;
     width: 200px;
-    /* border: none; */
 }
-
-

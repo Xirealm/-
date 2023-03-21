@@ -14,65 +14,120 @@
     var myChart = echarts.init(document.getElementById('form1'));
     option = {
         xAxis: {
-          type: 'category',
-          data: ['2022-9', '2022-10', '2022-11','2022-12','2023-1','2023-2','2023-3']
+            type: 'category',
+            data:
+                ['2022-10', '2022-11', '2022-12', '2023-1', '2023-2', '2023-3'],
+            axisLabel: {
+                textStyle: {
+                    show: true,
+                    fontSize: '8',
+                    fontWeight: '300',
+                    color: 'black',
+                },
+            },
         },
         yAxis: {
-          type: 'value'
+            type: 'value',
+            splitLine: {
+                lineStyle: {
+                    color: "black",
+                    type: "dashed"//线条样式，dashed是虚线
+                }
+            }
         },
         series: [
           {
-            data: [5, 18, 28,40,10,23,33],
+            data: [18, 28,40,10,23,33],
             type: 'line'
           }
-        ]
+        ],
       };
     myChart.setOption(option);
-//Chart2
-{
-    var myChart = echarts.init(document.getElementById('form2'));
+    //Chart2
+    {
+        var myChart = echarts.init(document.getElementById('form2'));
 
-    option = {
-        title: {
-          text: '用户借阅书籍类型汇总',
-          subtext: '（统计截止日期:2023-02-04）',
-          left: 'center'
-        },
-        tooltip: {
-          trigger: 'item'
-        },
-        legend: {
-          orient: 'vertical',
-          left: 'left'
-        },
-        series: [
-          {
-            name: '借书情况',
-            type: 'pie',
-            radius: '50%',
-            data: [
-              { value: 72, name: '专业书' },
-              { value: 33, name: '工具书' },
-              { value: 10, name: '小说' },
-              { value: 8, name: '古文书' },
-              { value: 25, name: '个人传记' },
-              { value: 34, name: '工具书' },
-              { value: 6, name: '随笔' },
-              { value: 12, name: '剧本' },
-
-            ],
-            emphasis: {
-              itemStyle: {
-                shadowBlur: 20,
-                shadowOffsetX: 0,
-                shadowColor: 'rgba(0, 0, 0, 0.5)'
-              }
+        option = {
+            title: {
+            text: '用户借阅书籍类型汇总',
+            subtext: '（统计截止日期:2023-02-04）',
+            left: 'center'
+            },
+            tooltip: {
+            trigger: 'item'
+            },
+            legend: {
+            orient: 'vertical',
+            left: 'left'
+            },
+            series: [
+            {
+                name: '借书情况',
+                type: 'pie',
+                radius: '50%',
+                data: [
+                    {
+                        value: 72,
+                        name: '专业书',
+                        itemStyle: {
+                            color: 'pink',
+                        }
+                    },
+                    {
+                        value: 33,
+                        name: '工具书',
+                        itemStyle: {
+                            color: 'pink',
+                        }
+                    },
+                    {
+                        value: 10,
+                        name: '小说',
+                        itemStyle: {
+                            color: 'pink',
+                        }
+                    },
+                    {
+                        value: 8,
+                        name: '古文书',
+                        itemStyle: {
+                            color: 'pink',
+                        }
+                    },
+                    {
+                        value: 25,
+                        name: '个人传记',
+                        itemStyle: {
+                            color: 'pink',
+                        }
+                    },
+                    {
+                        value: 6,
+                        name: '随笔',
+                        itemStyle: {
+                            color: 'pink',
+                        }
+                    },
+                    {
+                        value: 12,
+                        name: '剧本',
+                        itemStyle: {
+                            color: 'pink',
+                        }
+                    },
+                ],
+                emphasis: {
+                itemStyle: {
+                    shadowBlur: 20,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+                }
             }
-          }
-        ]
-      };
-    myChart.setOption(option);
-}
+            ]
+        };
+        myChart.setOption(option);
+    }
 
     // const btn02 = document.getElementById('btn02');
     // const photo=document.querySelector('.photo');

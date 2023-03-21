@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>图书管理系统</title>
-    <!-- <link rel="stylesheet" href="./font_3792744_8fxjxr2kc6t/iconfont.css"> -->
     <link rel="stylesheet" href="./font_3792744_um7t9t18dsr/iconfont.css">
     <link rel="stylesheet" href="./index.css">
     <script defer src="./index.js"> </script>
@@ -204,34 +203,6 @@
                 <div class="pagination"></div>
                 <span class="page-change next">下一页</span>
             </div>
-            <!-- <table class="my-borrow">
-                <thead>
-                    <tr>
-                        <th>序号</th>
-                        <th>图书名称</th>
-                        <th>图书编号</th>
-                        <th>图书类型</th>
-                        <th>作者</th>
-                        <th>借阅时间</th>
-                        <th>归还时间</th>
-                        <th class="state-header">状态</th>
-                        <th class="handle-header">操作</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>《活着》</td>
-                        <td>0001</td>
-                        <td>小说</td>
-                        <td>余华</td>
-                        <td>2023-02-03 9:30</td>
-                        <td>————</td>
-                        <td class="state">未归还</td>
-                        <td><button class="handle">归还</button></td>
-                    </tr>
-                </tbody>
-            </table> -->
         </div>
         <div class="show" id="show04">
             <div class="show04_content">
@@ -250,7 +221,7 @@
                             <hr>
                             <div>
                                 <p>姓名</p>
-                                <input type="text"value="XXX">
+                                <input type="text"value="倪益波">
                             </div>
                             <div>
                                 <p>期数</p>
@@ -279,22 +250,22 @@
                     <div class="tasks">
                         <div class="task">
                             <div class="task_text">
-                                <p>借阅中</p>
-                                <p>2</p>
+                                <p class="state">借阅中</p>
+                                <p class="number" id="borrowing-number">4</p>
                             </div>
                             <div class="iconfont icon-jiebei"></div>
                         </div>
                         <div class="task">
                             <div class="task_text">
-                                <p>借阅中</p>
-                                <p>2</p>
+                                <p class="state">等待审核</p>
+                                <p class="number" id="waitting-number">2</p>
                             </div>
                             <div class="iconfont icon-shenpishenhe"></div>
                         </div>
                         <div class="task">
                             <div class="task_text">
-                                <p>已归还</p>
-                                <p>2</p>
+                                <p class="state">已归还</p>
+                                <p class="number" id="borrowed-number">28</p>
                             </div>
                             <div class="iconfont icon-manage-the-return-of-books"></div>
                         </div>
