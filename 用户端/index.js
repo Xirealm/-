@@ -1,171 +1,13 @@
 {
-    let symbol = document.getElementById('symbol');
-    let login = document.getElementById('login');
-    login.style.display = "none"
-    symbol.onmouseover = function (event) {
-        event.stopPropagation()
-        login.style.display = "block";
-    }
-    symbol.onmouseout = function (event) {
-        event.stopPropagation()
-        login.style.display = "none"
-    }
-    //Chart1
-    var myChart = echarts.init(document.getElementById('form1'));
-    option = {
-        xAxis: {
-            type: 'category',
-            data:
-                ['2022-10', '2022-11', '2022-12', '2023-1', '2023-2', '2023-3'],
-            axisLabel: {
-                textStyle: {
-                    show: true,
-                    fontSize: '10',
-                    fontWeight: '300',
-                    color: 'black',
-                },
-            },
-        },
-        yAxis: {
-            type: 'value',
-            splitLine: {
-                lineStyle: {
-                    color: "black",
-                    type: "dashed"//线条样式，dashed是虚线
-                }
-            },
-            axisLabel: {
-                textStyle: {
-                    fontSize: '12',
-                    fontWeight: '300',
-                    color: 'black',
-                },
-            },
-        },
-        series: [
-          {
-            data: [18, 28,40,10,23,33],
-            type: 'line'
-          }
-        ],
-      };
-    myChart.setOption(option);
-    //Chart2
-    {
-        var myChart = echarts.init(document.getElementById('form2'));
-
-        option = {
-            title: {
-            text: '用户借阅书籍类型汇总',
-            subtext: '（统计截止日期:2023-02-04）',
-            left: 'center'
-            },
-            tooltip: {
-            trigger: 'item'
-            },
-            legend: {
-            orient: 'vertical',
-            left: 'left'
-            },
-            series: [
-            {
-                name: '借书情况',
-                type: 'pie',
-                radius: '70%',
-                data: [
-                    {
-                        value: 73,
-                        name: '专业书',
-                        itemStyle: {
-                            color: 'pink',
-                        }
-                    },
-                    {
-                        value: 45,
-                        name: '工具书',
-                        itemStyle: {
-                            color: '#749BFF',
-                        }
-                    },
-                    {
-                        value: 69,
-                        name: '小说',
-                        itemStyle: {
-                            color: '#43B67F',
-                        }
-                    },
-                    {
-                        value: 23,
-                        name: '古文书',
-                        itemStyle: {
-                            color: '#E98F36',
-                        }
-                    },
-                    {
-                        value: 35,
-                        name: '个人传记',
-                        itemStyle: {
-                            color: '#CA3818',
-                        }
-                    },
-                    {
-                        value: 18,
-                        name: '随笔',
-                        itemStyle: {
-                            color: 'skyblue',
-                        }
-                    },
-                ],
-                emphasis: {
-                itemStyle: {
-                    shadowBlur: 26,
-                    shadowOffsetX: 0,
-                    shadowColor: 'rgba(0, 0, 0, 0.5)'
-                }
-                }
-            }
-            ]
-        };
-        myChart.setOption(option);
-    }
-
-    // const btn02 = document.getElementById('btn02');
-    // const photo=document.querySelector('.photo');
-    // axios.defaults.baseURL='http://127.0.0.0:8080'
-    //     btn02.addEventListener('click',()=>{
-    //     axios({
-    //         method:'POST',
-    //         url:'/checkServlet',
-    //          date:{
-    //             "IMG":'photo'//图片
-    //             /* "NUMBER"://书籍编号
-    //             "BOOKNAME"://书名
-    //             "CLASSIFY"://分类
-    //             "AUTHOR"://作者
-    //             "PUBLISHER"://出版社
-    //             "DATE"://出版日期
-    //             "CONTENT"://简介
-    //             "STATE"://状态
-    //             "COUNT"://库存 */
-    //         }
-
-    //     }).then((result) => {
-    //         console.log(result);
-    //     }).catch((err) => {
-    //         console.log("出错了",err);
-    //     });
-    // })
-}
-{
     const header = document.querySelector("header")
-    const main = document.querySelector("main")
     const aside = document.querySelector("aside")
+    const main = document.querySelector("main")
+    const shows = main.querySelectorAll('.show');
     const logoName = aside.querySelector(".logo-name")
     const asideLogoBox = aside.querySelector(".aside-logo-box")
     const asideLogo = aside.querySelector(".aside-logo")
     const asideMenu = aside.querySelector("#aside-menu")
     const asidebtn = asideMenu.querySelectorAll("a")
-    const shows = main.querySelectorAll('.show');
     aside.addEventListener("mouseenter", function (event) {
         event.stopPropagation()
         aside.className = ""
@@ -1631,4 +1473,162 @@
             infoInput[i].style.borderBottom = "none"
         }
     })
+}
+{
+    let symbol = document.getElementById('symbol');
+    let login = document.getElementById('login');
+    login.style.display = "none"
+    symbol.onmouseover = function (event) {
+        event.stopPropagation()
+        login.style.display = "block";
+    }
+    symbol.onmouseout = function (event) {
+        event.stopPropagation()
+        login.style.display = "none"
+    }
+    //Chart1
+    var myChart = echarts.init(document.getElementById('form1'));
+    option = {
+        xAxis: {
+            type: 'category',
+            data:
+                ['2022-10', '2022-11', '2022-12', '2023-1', '2023-2', '2023-3'],
+            axisLabel: {
+                textStyle: {
+                    show: true,
+                    fontSize: '10',
+                    fontWeight: '300',
+                    color: 'black',
+                },
+            },
+        },
+        yAxis: {
+            type: 'value',
+            splitLine: {
+                lineStyle: {
+                    color: "black",
+                    type: "dashed"//线条样式，dashed是虚线
+                }
+            },
+            axisLabel: {
+                textStyle: {
+                    fontSize: '12',
+                    fontWeight: '300',
+                    color: 'black',
+                },
+            },
+        },
+        series: [
+            {
+                data: [18, 28, 40, 10, 23, 33],
+                type: 'line'
+            }
+        ],
+    };
+    myChart.setOption(option);
+    //Chart2
+    {
+        var myChart = echarts.init(document.getElementById('form2'));
+
+        option = {
+            title: {
+                text: '用户借阅书籍类型汇总',
+                subtext: '（统计截止日期:2023-02-04）',
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'item'
+            },
+            legend: {
+                orient: 'vertical',
+                left: 'left'
+            },
+            series: [
+                {
+                    name: '借书情况',
+                    type: 'pie',
+                    radius: '70%',
+                    data: [
+                        {
+                            value: 73,
+                            name: '专业教材',
+                            itemStyle: {
+                                color: 'pink',
+                            }
+                        },
+                        {
+                            value: 45,
+                            name: '工具书',
+                            itemStyle: {
+                                color: '#749BFF',
+                            }
+                        },
+                        {
+                            value: 69,
+                            name: '小说',
+                            itemStyle: {
+                                color: '#43B67F',
+                            }
+                        },
+                        {
+                            value: 23,
+                            name: '诗歌',
+                            itemStyle: {
+                                color: '#E98F36',
+                            }
+                        },
+                        {
+                            value: 35,
+                            name: '传记',
+                            itemStyle: {
+                                color: '#CA3818',
+                            }
+                        },
+                        {
+                            value: 18,
+                            name: '散文集',
+                            itemStyle: {
+                                color: 'skyblue',
+                            }
+                        },
+                    ],
+                    emphasis: {
+                        itemStyle: {
+                            shadowBlur: 26,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+        myChart.setOption(option);
+    }
+
+    // const btn02 = document.getElementById('btn02');
+    // const photo=document.querySelector('.photo');
+    // axios.defaults.baseURL='http://127.0.0.0:8080'
+    //     btn02.addEventListener('click',()=>{
+    //     axios({
+    //         method:'POST',
+    //         url:'/checkServlet',
+    //          date:{
+    //             "IMG":'photo'//图片
+    //             /* "NUMBER"://书籍编号
+    //             "BOOKNAME"://书名
+    //             "CLASSIFY"://分类
+    //             "AUTHOR"://作者
+    //             "PUBLISHER"://出版社
+    //             "DATE"://出版日期
+    //             "CONTENT"://简介
+    //             "STATE"://状态
+    //             "COUNT"://库存 */
+    //         }
+
+    //     }).then((result) => {
+    //         console.log(result);
+    //     }).catch((err) => {
+    //         console.log("出错了",err);
+    //     });
+    // })
 }
