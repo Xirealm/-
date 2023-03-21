@@ -20,7 +20,7 @@
             axisLabel: {
                 textStyle: {
                     show: true,
-                    fontSize: '8',
+                    fontSize: '10',
                     fontWeight: '300',
                     color: 'black',
                 },
@@ -33,7 +33,14 @@
                     color: "black",
                     type: "dashed"//线条样式，dashed是虚线
                 }
-            }
+            },
+            axisLabel: {
+                textStyle: {
+                    fontSize: '12',
+                    fontWeight: '300',
+                    color: 'black',
+                },
+            },
         },
         series: [
           {
@@ -64,61 +71,54 @@
             {
                 name: '借书情况',
                 type: 'pie',
-                radius: '50%',
+                radius: '70%',
                 data: [
                     {
-                        value: 72,
+                        value: 73,
                         name: '专业书',
                         itemStyle: {
                             color: 'pink',
                         }
                     },
                     {
-                        value: 33,
+                        value: 45,
                         name: '工具书',
                         itemStyle: {
-                            color: 'pink',
+                            color: '#749BFF',
                         }
                     },
                     {
-                        value: 10,
+                        value: 69,
                         name: '小说',
                         itemStyle: {
-                            color: 'pink',
+                            color: '#43B67F',
                         }
                     },
                     {
-                        value: 8,
+                        value: 23,
                         name: '古文书',
                         itemStyle: {
-                            color: 'pink',
+                            color: '#E98F36',
                         }
                     },
                     {
-                        value: 25,
+                        value: 35,
                         name: '个人传记',
                         itemStyle: {
-                            color: 'pink',
+                            color: '#CA3818',
                         }
                     },
                     {
-                        value: 6,
+                        value: 18,
                         name: '随笔',
                         itemStyle: {
-                            color: 'pink',
-                        }
-                    },
-                    {
-                        value: 12,
-                        name: '剧本',
-                        itemStyle: {
-                            color: 'pink',
+                            color: 'skyblue',
                         }
                     },
                 ],
                 emphasis: {
                 itemStyle: {
-                    shadowBlur: 20,
+                    shadowBlur: 26,
                     shadowOffsetX: 0,
                     shadowColor: 'rgba(0, 0, 0, 0.5)'
                 }

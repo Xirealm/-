@@ -7,7 +7,6 @@
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,7 +15,7 @@
 .icon-jiebei:before {
   content: "\e631";
   color: chocolate;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .icon-manage-the-return-of-books:before {
@@ -28,16 +27,13 @@
 .icon-shenpishenhe:before {
   content: "\e633";
   color: green;
-  font-size: 58px;
-
+  font-size: 55px;
 }
 
 .icon-gerenzhuye:before {
   content: "\e63b";
 }
-.iconfont{
-  font-size: 40px;
-}
+
 .icon-tuichu:before {
   content: "\e60d";
 }
@@ -68,7 +64,6 @@
 
 .icon-sousuoxiao:before {
   content: "\e8d6";
-  font-size: 22px;
-  font-size: 35px;
+  font-size: 30px;
 }
 

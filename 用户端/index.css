@@ -190,7 +190,7 @@ aside {
 }
 
 aside .menu{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 aside a {
@@ -754,57 +754,58 @@ aside .selected {
 .show04_content{
     height: 750px;
     width: 1300px;
-    /* background-color: pink; */
     margin: 60px auto;
     display: flex;
     justify-content: space-around;
 }
+
 .show04_content1{
     height: 730px;
     width: 380px;
-    /* background-color: aqua; */
 }
+
 .show04_content2{
     height: 720px;
     width: 900px;
-    /* background-color: aquamarine; */
 }
+
 .information{
-    height: 340px;
-    width: 350px;
+    height: 320px;
+    width: 360px;
     background-color: #FFFFFF;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 40px;
     border-radius: 10px;
     border: rgba(255, 255, 255, 0.4) 2px solid;
     background-color: rgba(230, 227, 227, 0.7);
     backdrop-filter: blur(5px);
 }
+
 .information_photo{
     height: 80px;
     width: 80px;
-    background-color: pink;
-    margin: 5px auto 15px;
+    margin: 10px auto 5px;
     border-radius: 50px;
     background-image: url(https://donghehe.oss-cn-hangzhou.aliyuncs.com/d912057f77bbdb90ab71a96bdd5614b5.png);
     background-size: 80px 80px;
 }
-.people{
+.user{
     display: flex;
     flex-direction: column;
 }
-.people_name{
-    width: 70px;
-    margin: 20px auto 20px;
+.user_name{
+    margin: 10px auto 5px;
+    font-size: 18px;
 }
-.people div:nth-child(2){
-    width: 320px;
+.user div:nth-child(2){
+    width: 350px;
     display: flex;
     justify-content: space-between;
 }
-.people_content{
+.user_content{
     width: 50px;
-    margin: 10px ;
     font-size: 20px;
+    margin-left: 15px;
 }
 .information_content p{
     width: 50px;
@@ -822,16 +823,19 @@ aside .selected {
     font-size: 15px;
     margin-left: 10px;
 }
-.change{
-    height: 35px;
+
+.user .change{
+    height: 30px;
     width: 100px;
     background-color: #2c84b4;
     border: none;
     border-radius: 30px;
+    color: white;
 }
+
 .form{
     height: 350px;
-    width: 350px;
+    width: 360px;
     background-color: #FFFFFF;
     margin: 20px auto 0;
     border-radius: 10px;
@@ -839,6 +843,7 @@ aside .selected {
     background-color: rgba(230, 227, 227, 0.7);
     backdrop-filter: blur(5px);
 }
+
 .form div:nth-child(1){
     width: 150px;
     height: 20px;
@@ -848,15 +853,17 @@ aside .selected {
     height: 300px;
     width: 355px;
 }
+
 .tasks{
-    width: 850px;
+    width: 820px;
     height: 200px;
     margin: 0 auto ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 .task{
-    width: 250px;
+    width: 240px;
     height: 150px;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -888,12 +895,11 @@ aside .selected {
 }
 .icon-manage-the-return-of-books{
     margin-top: 55px;
-
 }
 .icon-shenpishenhe{
     margin-top: 55px;
-
 }
+
 .form2{
     width: 820px;
     height: 510px;
