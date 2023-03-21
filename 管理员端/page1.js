@@ -3,21 +3,340 @@ const booklist = document.querySelector("tbody")
 //图书清单的动态生成
 let bookData = [
     {
-        
-    }
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
+    {
+        number: "1",
+        bookName: "三体",
+        bookAuthor: "刘慈欣",
+        bookType: "小说",
+        stackNumber: "76",
+    },
 ]
-function booklistCreate(){
-    for (let i = 0; i < 100; i++) {
+function booklistCreate() {
+    for (let i = 0; i < bookData.length; i++) {
         book[i] = document.createElement("tr")
         book[i].className = "book"
         booklist.appendChild(book[i])
         book[i].insertAdjacentHTML("beforeend",
             `
-                <td>${i+1}</td>
-                <td class="book-name">三体</td>
-                <td>刘慈欣</td>
-                <td>科幻</td>
-                <td>76</td>
+                <td>${bookData[i].number}</td>
+                <td class="book-name">${bookData[i].bookName}</td>
+                <td>${bookData[i].bookAuthor}</td>
+                <td>${bookData[i].bookType}</td>
+                <td>${bookData[i].stackNumber}</td>
                 <td class="handle">
                     <button class="edit">编辑</button>
                     <button class="delete">删除</button>
